@@ -12,4 +12,6 @@ ROS node using our custom plane and objects segmentation, sending the pointcloud
 1. ```roslaunch sara_description sara_description.launch test:=true```
 2. ```roslaunch sara_launch wm_openni2.launch camera:=head_xtion```
 3. ```roslaunch wm_object_segmentation wm_object_segmentation.launch```
-4. TODO : launch GPD
+4. ```rosrun wm_grasp_selection grasp_from_pointcloud_server```
+## Test
+1. ```rosservice call grasp_from_pointcloud```
