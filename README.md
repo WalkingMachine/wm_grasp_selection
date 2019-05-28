@@ -4,7 +4,7 @@ ROS node using our custom plane and objects segmentation, sending the pointcloud
 ## Dependencies
 * https://github.com/WalkingMachine/wm_table_segmentation
 * https://github.com/WalkingMachine/wm_object_segmentation
-* TODO : add GPD repo
+* https://github.com/atenpas/gpd/tree/forward
 ## Installation
 * Clone the repo in dependencies
 * Follow the installation instructions from every repo
